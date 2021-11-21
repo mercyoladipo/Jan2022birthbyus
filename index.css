@@ -387,7 +387,7 @@ input{
     align-items: center;
     text-align: center;
     z-index:4;
-    margin-top: -5px;
+    margin-top: -4px;
     
 }
 
@@ -395,4 +395,103 @@ input{
     font-size: 35px;
     width: 85vw;
     font-weight: 300;
+}
+
+/* browse by category css */
+.hospital-icon{
+    width: 280px;
+    height: 280px;
+}
+
+
+.icon-holder{
+    background: #F4EBE4;
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon-holder:hover{
+    background-color:#c3bcb6;
+    cursor: pointer;
+}
+.icon-holder img{
+    width: 300px;
+    height: 300px;
+    color: black;
+    
+
+}
+
+td p{
+    font-size: 16px;
+    font-weight:200;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+td, th {
+    text-align: center;
+    padding:10px 10px;
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+table{
+    margin: 40px;
+    position: relative;
+    top: 160px;
+    
+}
+tr,th{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.all th{
+    width: 450px;
+}
+
+.subtitle{
+    background: #B28666;
+    width:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    font-weight: 700;
+    font-size: 20px;
+    position:relative;
+    top: 100px;
+    left: 353px;
+}
+
+/* footer */
+
+.footer {
+    background: #F4EBE4;
+    width: 100vw;
+    padding: 10px;
+    bottom: 0;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+  
+
+  
+}
+
+.footer p{
+    font-weight: 300;
+    font-size: 14px;
+    color: #494644;
+    text-align: center;
 }
