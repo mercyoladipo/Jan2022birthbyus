@@ -140,3 +140,24 @@ nav a:hover{
         color:black;
     }
 
+nav button{
+    border-radius: 30px;
+    background: #EC9B89;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight:bold;
+    transition: all 0.2s ease-in-out;
+    text-decoration:none;
+    font-size: 20px;  
+}
+
+nav button:hover{
+    transition: all 0.2s ease-in-out;
+    background: #bd7c6e;
+    color: #fff;
+}
