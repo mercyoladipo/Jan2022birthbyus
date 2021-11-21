@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    /* font-family: "Poppins", sans-serif; */
+  }
+  
+  
+  .slider {
+    position:relative;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .image {
+    width: 1000px;
+    height:600px;
+    border-radius: 10px;
+  }
+  
+  .right-arrow{
+    position:absolute;
+    top: 50%;
+    right: 32px;
+    font-size:3rem;
+    color: #0000;
+    z-index: 100;
+    cursor:pointer;
+    user-select: none;
+  }
+  
+  .left-arrow{
+    position:absolute;
+    top: 50%;
+    left: 32px;
+    font-size:3rem;
+    color: #0000;
+    z-index: 100;
+    cursor:pointer;
+    user-select: none;
+  }
+  
+body {
+   
+    /* height: 2000px; */
+    position: relative; 
+    /* overflow-y: scroll; */
+  }
+  html {overflow-y: scroll; overflow-x:hidden;}
+  
+  html, body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #c99f7c;
+  }
+
+  nav {
+    background: #F4EBE4;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    @media screen and (max-width: 968px){
+        transition: 0.8s all ease
+}
+  }
+#NavBarContainer{
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    z-index: 1;
+    width: 100%;
+    padding: 0 24 px;
+    max-width: 1100px;
+    position: sticky;
+}
+  
+#NavLogo{
+    color:#352519;
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    /* //margin-left: 24px; */
+    font-weight: bold;
+    text-decoration: none;
+    /* // float:left; */
+
+    @media screen and (max-width: 968px){
+        margin-left: 24px;
+    }
+
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    text-align:center;
+    margin-right:-22px;
+    align-items:center;
+    /* // justify-content: center;
+    // float:right; */
+    @media screen and (max-width:968px){
+        display:none;
+    }
+
+}
+
+nav li{
+    height:80px;
+    padding: 0px 24px;
+}
+
+nav a{
+    color: #474442;
+    display:flex;
+    align-items: center;
+    text-decoration:none;
+    font-weight:bold;
+    font-size: 20px;
+    padding: 40px 1rem;
+    height: 100%;
+    cursor:pointer;
+    /* // justify-content: center;
+    // float:right; */
+}
+nav a:active{
+        border-bottom: 3px solid #EC9B89; 
+    }
+nav a:hover{
+        color:black;
+    }
+
