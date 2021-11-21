@@ -68,9 +68,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 30;
-    @media screen and (max-width: 968px){
-        transition: 0.8s all ease
-}
+   
   }
 #NavBarContainer{
     display:flex;
@@ -84,7 +82,7 @@ body {
 }
   
 #NavLogo{
-    color:#352519;
+    color:#b28666;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 20px;
@@ -95,9 +93,6 @@ body {
     text-decoration: none;
     /* // float:left; */
 
-    @media screen and (max-width: 968px){
-        margin-left: 24px;
-    }
 
 }
 
@@ -109,9 +104,7 @@ nav ul{
     align-items:center;
     /* // justify-content: center;
     // float:right; */
-    @media screen and (max-width:968px){
-        display:none;
-    }
+   
 
 }
 
@@ -140,7 +133,7 @@ nav a:hover{
         color:black;
     }
 
-nav button{
+#NavBarButton a{
     border-radius: 30px;
     background: #EC9B89;
     white-space: nowrap;
@@ -154,10 +147,14 @@ nav button{
     transition: all 0.2s ease-in-out;
     text-decoration:none;
     font-size: 20px;  
+    display:flex;
+    align-items:center;
+    height:60px;
 }
 
-nav button:hover{
+#NavBarButton a:hover{
     transition: all 0.2s ease-in-out;
     background: #bd7c6e;
     color: #fff;
 }
+
