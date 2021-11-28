@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <link rel="stylesheet" href="coming-soon.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&display=swap"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+         
+          <img src="./images/black mom baby afro.jpg" style="width:100%">
+       
+        </div>
+      
+        <div class="mySlides fade">
+         
+          <img src="./images/Image Slider 2.jpeg" style="width:100%">
+        
+        </div>
+      
+        <div class="mySlides fade">
+     
+          <img src="./images/Image Slider 3.jpeg" style="width:100%">
+          
+        </div>
+    
+        <div class="mySlides fade">
+     
+            <img src="./images/Image Slider Option 2.jpg" style="width:100%">
+            
+          </div>
+    
+          <div class="mySlides fade">
+     
+            <img src="./images/Image Slider 5.jpeg" style="width:100%">
+            
+          </div>
+    
+          <div class="mySlides fade">
+     
+            <img src="./images/Image Slider 6.jpeg" style="width:100%">
+            
+          </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+        //   for (i = 0; i < dots.length; i++) {
+        //       dots[i].className = dots[i].className.replace(" active", "");
+        //   }
+          slides[slideIndex-1].style.display = "block";  
+        //   dots[slideIndex-1].className += " active";
+        }
+        </script>
+</body>
+</html>
