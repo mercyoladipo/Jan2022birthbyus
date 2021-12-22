@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Contact.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&display=swap"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    
+    <script>
+        function SubForm(){
+          $.ajax({
+            url: "https://api.apispreadsheets.com/data/deqNXwXorD8REO7v/",
+            type:'post',
+            data:$("#contactForm").serializeArray(),
+            success: function(){
+              console.log("success")
+              alert("Thank you for your message! We will have a member of our team reach back out to you in 3-5 days.")
+            },
+            error: function(){
+              alert("Hmm ... something went wrong. Please send an email to hello@birthbyus.com")
+            }
+          });
+        }
+        </script>
+</head>
+<body>
+    <div id="overlay-cover">
+  
+    </div>
+    <div class="background-image">
+        <img src="../images/pexels-pnw-production-7327990 (1).jpg" alt="mother holding baby" />
+    <nav>
+        <div id="NavBarContainer">
+            <a id="NavLogo" href="../pages/coming-soon.html">
+                birth by us
+            </a>
+            <ul>
+                <!-- <li><a href="../pages/coming-soon.html">HOME</a></li>
+                <li><a href="../pages/About.html" >ABOUT US</a> </li> -->
+                <li> <a href="../pages/Contact.html">CONTACT</a></li>
+                
+    
+            </ul>
+        
+        </div>
+    
+    </nav>
+    
+                <h1 id="contacth4">CONTACT US</h1>
+   
+</div>
+    
+       <div class="title">
+        <!-- <h1> LET'S CHAT</h1> -->
+           <h6> Questions? Comments? Concerns? We'd love to hear from you!</h6>
+       </div>
+      
+       <div class= "contact-form-holder">
+           <form id="contactForm">
+          
+           <div class= "special-span">
+               <span class="contact-span">
+           <label for="fname">FIRST NAME  </label>
+                    
+                <input class = "contact-input" type="text"  name="fname" required >
+                </span>
+                <span class="contact-span">
+                <label class= "lname" for="lname">LAST NAME</label>
+
+                <input class = "contact-input" type="text"  name="lname" required > 
+                </span> 
+                </div>
+                
+                    <span class="contact-span"> 
+                    <label for="email">EMAIL</label>   
+                <input class = "contact-input" type="email"  name="email2" required > 
+                    
+                    </span><span class="contact-span">  
+                    <label htmlFor="topic">TOPIC</label>
+                <input class = "contact-input" type="text"  name="topic" required > 
+                    
+                    </span>
+                    <span class="contact-span">    
+                    <label htmlFor="msg">MESSAGE</label>
+                <textarea class = "contact-input" type="text"  name="msg" rows= "5" cols="50" required> </textarea> 
+                    
+                    </span>
+                    <button onClick="SubForm()" class="contact-submit-btn"  type="submit">SUBMIT</button>
+
+           </form>
+       </div>
+      
+       <!-- <div class= "login-pg-footer">
+       <p> Tel. 555-555-555 | Email: info@birthbyus.com </p> 
+    
+    </div>
+  -->
+</body>
+</html>

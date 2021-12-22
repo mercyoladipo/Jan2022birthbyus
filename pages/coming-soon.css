@@ -259,6 +259,11 @@ nav a:hover{
     height: 100%;
 }
 
+#envelope{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 100vw;
