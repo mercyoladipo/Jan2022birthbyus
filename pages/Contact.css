@@ -20,7 +20,8 @@ body {
   padding: 0;
   border: 0;
   font-family: "Poppins", sans-serif;
-  background-color: #c99f7c;
+  /* background-color: #c99f7c; */
+  background-color: #fcf9f7;;
   }
 
 
@@ -89,6 +90,10 @@ body {
 
 }
 
+#NavLogo:hover{
+    color: #3d2c27;
+}
+
 nav ul{
     display:flex;
     list-style:none;
@@ -119,9 +124,9 @@ nav a{
     /* // justify-content: center;
     // float:right; */
 }
-nav a:active{
+/* nav a:active{
         border-bottom: 3px solid #EC9B89; 
-    }
+    } */
 nav a:hover{
         color:black;
     }
@@ -185,7 +190,7 @@ h4{
     background-color: transparent;
 }
 #contactForm{
-    background: #f4ebe4;
+    background: #d1c9c6;
     width:1059px;
     height:680px;
     margin:auto;
@@ -207,8 +212,8 @@ input{
     padding: 10px 10px;
 }
 .contact-input{
-    background: #f4ebe4;
-    border:1px solid black;
+    background: #d1c9c6;
+    border: 2.5px solid white;
     border-radius: 0px;
     color: black;
     font-size: 16px;
