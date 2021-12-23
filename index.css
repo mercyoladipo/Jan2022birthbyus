@@ -542,6 +542,7 @@ tr,th{
     height:591px;
     transform: rotate(10deg);
     z-index: 9;
+    filter: drop-shadow(10px 5px 4px #a7a19e);
   
 }
 
