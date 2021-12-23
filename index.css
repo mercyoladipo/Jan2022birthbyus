@@ -221,7 +221,10 @@ h6{
 
 #email-collector{
     padding-top:50px;
+    position: absolute;
+    top:680px;
 }
+
 #email-collector form{
     display: flex;
     flex-direction: row;
@@ -550,3 +553,78 @@ tr,th{
     transform: rotate(-10deg);
 
 }
+
+/* @keyframes text1 {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+    width: 0;
+    }
+    1%,
+    24% {
+    width: 8.7em;
+    }
+    }
+    @keyframes text2 {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+    width: 0;
+    }
+    26%,
+    49% {
+    width: 8em;
+    }
+    }
+    @keyframes text3 {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+    width: 0;
+    }
+    51%,
+    74% {
+    width: 8.7em;
+    }
+    }
+
+  .text_1 {
+    animation: text1;
+  }
+  .text_2 {
+    animation: text2;
+  }
+
+  .text_3 {
+    animation: text3;
+  }
+  .text_1, .text_2, .text_3 {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    animation-duration: 20s;
+    animation-timing-function: steps(25, end);
+    animation-iteration-count: 2;
+  }
+  .text_1::after, .text_2::after, .text_3:after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret 1;
+    animation-duration: 4s;
+    animation-timing-function: steps(1, end);
+  } */
+
+
+  .hidden{display:none}
+  #blurb{
+      position: absolute;
+      top:520px;
+  }
