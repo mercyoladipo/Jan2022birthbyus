@@ -669,11 +669,21 @@ tr,th{
   .brown-box{
       background-color: #C8BFBD;
       display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      padding:40px 420px 40px 70px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
       width:100%;
+      padding:20px;
   }
+
+  .bb-text{
+    background-color: #C8BFBD;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding:40px 10px 40px 70px; */
+    width:60%;
+}
 
   .brown-box h2{
       color:#664A41;
@@ -697,7 +707,7 @@ tr,th{
       margin-bottom: 45px;
   }
   .brown-box hr{
-      width:966px;
+      width:880px;
       border-width:1px;
       margin-top: 25px;
       margin-bottom: 25px;
@@ -720,13 +730,24 @@ tr,th{
       color: #242424;
   }
 
+  .cream-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    padding:20px;
+    margin-top:40px;
+    margin-bottom: 40px;
+  }
+
   .cream-box span{
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
       align-items: center;
       margin-bottom: 10px;
-      margin-left: 520px;
+      /* margin-left: 320px; */
   }
   .cream-box span h3{
       margin-left: 20px;
@@ -739,19 +760,19 @@ tr,th{
     margin-bottom: 45px;
 }
 .cream-box hr{
-    width:966px;
+    width:806px;
     border-width:1px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-.cream-box{
+.cc-text{
    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding:40px 70px 40px 420px;
-    width:100%;
+    /* padding:40px 70px 40px 100px; */
+    width:60%;
 }
 
 .cream-box h2{
@@ -847,6 +868,10 @@ tr,th{
 .q-button p{
     margin-left: 15px;
 }
+.q-button a{
+    color:black;
+    text-decoration: none;
+}
 
 .q-button:hover{
     background-color: #836e67;
@@ -937,7 +962,7 @@ tr,th{
   }
   
   .container:hover .pic-overlay {
-    opacity: .8;
+    opacity: .9;
     cursor: pointer;
   }
   
@@ -954,4 +979,27 @@ tr,th{
     transform: translate(-50%, -50%); */
     text-align: left; 
     padding:20px;
+  }
+
+  #parents-phone{
+      width:287.5px;
+      height:512.9px;
+      padding-right: 40px;
+      transform: rotate(5.92deg);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      filter: drop-shadow(5px 5px 2px #836e67);
+
+  }
+
+  .cc-img img{
+        width:287.5px;
+        height:512.9px;
+        padding-left: 40px;
+        transform: rotate(-5.92deg);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        filter: drop-shadow(5px 5px 2px #836e67);
+  
+    
   }
