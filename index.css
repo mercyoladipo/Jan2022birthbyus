@@ -1049,6 +1049,9 @@ tr,th{
     text-shadow: 2px 1px .5px white;
 
   }
+  .parents-mobile-pics{
+      display: none;
+  }
 
   .for-parents-mobile {
       display: none;
@@ -1068,7 +1071,7 @@ tr,th{
       align-items: flex-start;
       justify-content: space-evenly;
   }
-  .questions-container-mobile{
+  .questions-container-mobile, .correct-footer-mobile{
       display: none;
   }
   .logo-cloud-mobile{
@@ -1256,8 +1259,8 @@ tr,th{
     }
 
     .parents-mobile-pics img{
-        width:230px;
-      height:475.32px;
+        width:200px;
+      height:425.32px;
     }
     .for-providers-mobile{
         display: block;
@@ -1403,6 +1406,27 @@ tr,th{
     #sandbox{
         width:167px;
         height:100px;
+    }
+    .correct-footer{display: none;}
+    .correct-footer-mobile{
+        background-color: rgba(148, 134, 132, 0.5);
+        width:100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin:auto;
+
+    
+    }
+    
+    .correct-footer-mobile img{
+        width: 75px;
+        height:75px;
+        
+    
+    }
+    .footer-text{
+        margin-top: 0px;
     }
     
   }
