@@ -1326,7 +1326,7 @@ tr,th{
     .team-bio{
         width:250px;
         padding-left: 45px;
-        padding-right:15px;
+        
     }
     .team-bio h5{
         font-family: "Monserrat", sans-serif;
@@ -1437,5 +1437,12 @@ tr,th{
         flex-direction: column;
     }
     
+  }
+
+  @media only screen and (max-width: 586.7px) {
+    .team-bio{
+        padding-right:15px;
+    }
+
   }
 
