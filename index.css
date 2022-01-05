@@ -1317,7 +1317,7 @@ tr,th{
     }
 
     .team-pic-bio img{
-        width: 250px;
+        width: 220px;
         border-radius:20px;
     }
     .team-pic{
@@ -1325,7 +1325,7 @@ tr,th{
     }
     .team-bio{
         width:250px;
-        padding-left: 25px;
+        padding-left: 45px;
     }
     .team-bio h5{
         font-family: "Monserrat", sans-serif;
@@ -1356,7 +1356,7 @@ tr,th{
     .q-button-mobile{
         background-color: #a2928d;
         border-radius: 30px;
-        width: 452px;
+        width: 350px;
         height: 75px;
         margin:20px;
         padding:20px;
@@ -1415,6 +1415,7 @@ tr,th{
         flex-direction: row;
         align-items: center;
         margin:auto;
+        padding:20px;
 
     
     }
@@ -1427,6 +1428,12 @@ tr,th{
     }
     .footer-text{
         margin-top: 0px;
+        font-size:12px;
+        margin-right:0px;
+    }
+    .footer-text-span{
+        display: flex;
+        flex-direction: column;
     }
     
   }
