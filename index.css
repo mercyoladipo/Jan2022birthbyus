@@ -1440,8 +1440,9 @@ tr,th{
   }
 
   @media only screen and (max-width: 586.7px) {
-    .team-bio{
-        padding-right:15px;
+    
+    .team-pic-bio{
+        padding: 20px;
     }
 
   }
