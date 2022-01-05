@@ -1071,6 +1071,9 @@ tr,th{
   .questions-container-mobile{
       display: none;
   }
+  .logo-cloud-mobile{
+      display: none;
+  }
 
   @media only screen and (max-width: 600px) {
     .what-we-do{
@@ -1376,6 +1379,30 @@ tr,th{
     
     .q-button-mobile:hover{
         background-color: #836e67;
+    }
+    html, body{overflow-x: hidden;}
+    .logo-cloud{
+        display: none;
+    }
+    .logo-cloud-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+      
+    }
+    .logo-cloud-mobile table{
+        top:0;
+    }
+    .logo-cloud-mobile img{
+        width:100px;
+        height:100px;
+        cursor: pointer;
+    }
+    
+    #sandbox{
+        width:167px;
+        height:100px;
     }
     
   }
