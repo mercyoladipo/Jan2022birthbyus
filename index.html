@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birth By Us - Coming Soon!</title>    
+    <title>Birth By Us - The Only Birth App You'll Ever Need</title>    
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&display=swap"/>
@@ -37,7 +37,7 @@
         });
       }
       </script>
-      <link rel="icon" type="image/x-icon"  href="./images/birthfinal_white (1).png" >
+      <link rel="icon" type="image/x-icon"  href="./images/birthfinal_brown (1).png" >
 </head>
 <body>
     <div id="overlay-cover-text">
@@ -54,6 +54,7 @@
   
 });
       </script>
+      <div class="animation">
         <h1> BIRTH </h1>
         <h1 id="made" >MADE</h1>
         <h1 id="by" class="hidden"> BY </h1>
@@ -61,7 +62,9 @@
         <h1 id="safer" class="hidden" >SAFER</h1>
         <h1 id="us" class="hidden"> US </h1>
         
-<!--         
+      </div>
+      
+<!--      
         <h1>BIRTH </h1>
             <h1> MADE </h1>
         <h1>BETTER</h1> -->
@@ -97,15 +100,21 @@
           .catch(error => console.error('Error!', error.message))
       })
     </script> -->
-    <div id="overlay-cover">
-  
-    </div>
-
     
+    <!-- <div class="mobiletag">
+      <h2 class="tagline-mobile"> birth made better. </h2>
+        <h2 class="tagline-mobile">birth made safer.</h2>
+        <h2 class="tagline-mobile">birth by us.</h2> 
+        </div>
+     -->
     <div class="slideshow-container">
+      
+      <div id="overlay-cover">
+
+      </div>
         <nav>
             <div id="NavBarContainer">
-                <a id="NavLogo" href="./">
+                <a id="NavLogo" href="index.html">
                     birth by us
                 </a>
                 <ul>
@@ -119,11 +128,11 @@
             </div>
         
         </nav>
-
+       
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
          
-          <img src="./images/mom looking at baby.jpg" style="width:100%">
+          <img src="./images/mom looking at baby.jpg" style="width:100%; display:block; height:100%;">
        
         </div>
       
@@ -143,6 +152,9 @@
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        
+
       </div>
       <!-- <div class="top-three">
         <div class="top-three-blurb">
@@ -187,13 +199,23 @@
         <hr color=#BD7C6E>
         <hr id="second-line" color=#BD7C6E>
         <h5>We're on a mission to shake things up in maternal health</h5>
+        <p id="blurb2">
+          Birth By Us empowers mothers and birthing people to shape their own birthing experience while giving providers the insights and data to best support their birth.
+
+        </p>
       </div>
 
-      <div class="brown-box" id="for-parents">
+      
+      <div class="brown-box">
         <div class="bb-text">
+          <div class="bb-header">
         <h6>FOR PARENTS</h6>  
         <h2>A Personalized, Adaptive Guide to Your Best Birth</h2>
         <hr color="#664A41"/>
+      </div>
+     
+     
+     
         <p>
           From new emotions and cravings to the bundle of joy growing inside of you, it’s hard to know what <em>normal</em> looks like as an expectant parent. The truth is, there isn’t one normal so let’s change the narrative. Birth By Us provides tailored check-ins at sequential points in your pregnancy to give you personalized health insights and top-tier resources, specific to your pregnancy, helping you stay afloat even as normal starts to shift. We’ll also help you stay connected with everyone from your provider to your doula to your partner, keeping them updated on your goals and key health stats.
         </p>
@@ -204,25 +226,29 @@
       <div class="bb-img">
         <img id = "parents-phone" src="./images/phone welcome screen.png">
       </div>
-
+    </div>
       </div>
 
-      <div class="cream-box" id="for-providers">
+      <div class="cream-box-container" id="for-providers">
+        <div class="cc-header">
+          <h6>FOR PROVIDERS</h6>  
+          <h2>Detailed Feedback to Improve Care</h2>
+          <hr color="#664A41"/>
+        </div>
+        <div class= "cream-box">
         <div class = "cc-img">
-          <img src="./images/Group 86.png">
+          <img id="providers-phone" src="./images/Group 86.png">
       </div>
         <div class= "cc-text">
-        <h6>FOR PROVIDERS</h6>  
-        <h2>Detailed Feedback to Improve Care</h2>
-        <hr color="#664A41"/>
+         
         <p>
           While the awareness of maternal health disparities is seemingly more present than ever, as providers, it can be hard to figure out where to start tackling this big problem. That’s where Birth By Us steps in. We take the guess-work out of improvement by turning your patient feedback into easily-understandable, routine quality reports placed side-by-side with the right set of resources to help you make the changes that matter most. We’ll also help you provide the most individualized care possible by connecting your patients with a robust directory of personalized resources to help them along their birth journey.
         </p>
         <span><img src="./images/checkbox-removebg-preview.png"> <h3>Aggregated Patient Feedback</h3>  </span>
         <span><img src="./images/checkbox-removebg-preview.png"> <h3>Connect Patients with Quality Resources</h3>  </span>
-        <span><img src="./images/checkbox-removebg-preview.png"> <h3>Streamlined Alets on Patient Wellbeing</h3>  </span>
+        <span><img src="./images/checkbox-removebg-preview.png"> <h3>Streamlined Alerts on Patient Wellbeing</h3>  </span>
       </div>
-      
+    </div>
 
        
 
@@ -249,7 +275,7 @@
           <div class="container"><img  class= "image" src="./images/Ijeoma_Uche_Headshot.jpeg">
             <div class="pic-overlay">
               <div class="text">
-                    Ijeoma is a co-founder of Birth By Us and a pre-med graduate student at UC Berkeley studying Public Health in Maternal, Child, and Adolescent Health. Prior, se spent her time at Brown University researching disparities in maternal heath and is thrilled for the growth digital healthcare can bring to reproductive health, creating innovative and sustainable avenues to achieve health equity.
+                    Ijeoma is a co-founder of Birth By Us and a pre-med graduate student at UC Berkeley studying Public Health in Maternal, Child, and Adolescent Health. Prior, she spent her time at Brown University researching disparities in maternal heath and is thrilled for the growth digital healthcare can bring to reproductive health, creating innovative and sustainable avenues to achieve health equity.
             
 
               </div>
@@ -290,6 +316,7 @@
         <a href="https://motherlab.org/"><img src="./images/cropped-final-motherlab-logo-removebg-preview.png" alt="MOTHER Lab Logo"/></a> 
        <a href="https://pkgcenter.mit.edu/"> <img src="./images/mit pkg logo.png" alt="MIT PKG Center Logo"/> </a>
         <a href="https://vms.mit.edu/"><img src="./images/mit_vms-removebg-preview.png" alt= "MIT VMS Logo" /></a> 
+        <a href="https://esg.mit.edu/"><img src="./images/MIT_ESG_logo_RGB__2_-1-removebg-preview.png">   </a>
       </div>
       <hr color="#d1c9c6">
 
