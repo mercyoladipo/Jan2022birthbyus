@@ -1326,6 +1326,7 @@ tr,th{
     .team-bio{
         width:250px;
         padding-left: 45px;
+        padding-right:15px;
     }
     .team-bio h5{
         font-family: "Monserrat", sans-serif;
