@@ -291,3 +291,210 @@ textarea {
     font-size: 16px;
     font-family: "Arial";
 }
+.mobile, .correct-footer-mobile{
+    display: none;
+}
+.correct-footer{
+    background-color: rgba(148, 134, 132, 0.5);
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+.correct-footer img{
+    width: 175px;
+    height:175px;
+    margin-top:33px;
+    margin-bottom:33px;
+    margin-left:184px;
+
+}
+.footer-text-span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+.footer-text a{
+    color: #474442;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    font-style: normal;
+    padding:20px;
+    text-decoration: none;
+}
+.footer-text a:hover{
+    color:black;
+}
+.footer-text h1{
+    color:#664A41;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Poppins";
+    letter-spacing: 0px;
+    font-size:50px;
+}
+
+.footer-text{
+    width: 100%;
+    margin-right:334px;
+    margin-top:50px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; */
+    text-align: center;
+}
+
+.footer-text p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Poppins";
+    font-weight: 200;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 600px){
+    nav{
+        margin-left:5%;
+    }
+    nav a{
+        color:#424242;
+
+    }
+    nav a:hover{
+        color:black;
+    }
+    #overlay-cover{
+        display:none;
+    }
+    .background-image{
+        width:100vw;
+    
+    }
+    .background-image img{
+        height:100%;
+        opacity:.6;
+    }
+    #contacth4{
+        display: none;
+    }
+
+    #contact-us{
+        display: block;
+        color:#664A41;
+        font-family: "Poppins";
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: 0px;
+        margin-bottom: 20px;
+    }
+    #contactForm{
+        background: #d1c9c6;
+        width:80vw;
+        height:550px;
+       
+        margin:auto;
+        margin-top:49px;
+        /* font-size:0px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        top: 20px;
+        margin-bottom: 50px;
+        border-radius: 30px;
+    
+    }
+    
+    input{
+        font-size: 16px;
+        font-style: italic;
+        padding: 10px 10px;
+    }
+    .contact-input{
+        background: #d1c9c6;
+        border: 2.5px solid white;
+        border-radius: 0px;
+        color: black;
+        font-size: 16px;
+    }
+    
+    .contact-span{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding:0;
+        margin:0;
+    }
+    
+    .contact-span input, textarea{
+        width: 60vw;
+        margin-left: 0px;
+    }
+    
+    .special-span{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 60vw;
+        margin-top:28px;
+    }
+    .special-span input{
+        width:60vw;
+       
+    }
+    
+    .special-span-labels label{
+        font-size: 14px;
+        font-weight:300;
+    }
+    .special-span-labels{
+        top:100px;
+        justify-content: space-between;
+        width: 853px;
+    }
+    
+    .contact-form-holder{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        top: 20px;
+    }
+    .title h6{
+        padding-right:50px;
+        padding-left: 50px;
+    }
+    
+    .correct-footer{display: none;}
+    .correct-footer-mobile{
+        background-color: rgba(148, 134, 132, 0.5);
+        width:100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin:auto;
+        padding:20px;
+
+    
+    }
+    
+    .correct-footer-mobile img{
+        width: 75px;
+        height:75px;
+        
+    
+    }
+    .footer-text{
+        margin-top: 0px;
+        font-size:12px;
+        margin-right:0px;
+    }
+    .footer-text-span{
+        display: flex;
+        flex-direction: column;
+    }
+}
