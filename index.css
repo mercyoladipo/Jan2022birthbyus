@@ -1074,12 +1074,12 @@ tr,th{
   .questions-container-mobile, .correct-footer-mobile{
       display: none;
   }
-  .logo-cloud-mobile, .email-collector-mobile{
+  .logo-cloud-mobile, .email-collector-mobile, #blurb2, .parent-mobile-pics, .for-parents-mobile, .for-providers-mobile, .meet-the-team-mobile{
       display: none;
   }
   
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     .what-we-do{
         text-align: center;
     }
