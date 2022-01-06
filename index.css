@@ -1101,11 +1101,11 @@ tr,th{
         margin-left:5%;
     }
     nav a{
-        color:#F4EBE4;
+        color:#424242;
 
     }
     nav a:hover{
-        color:white;
+        color:black;
     }
 
     #blurb2{
@@ -1130,14 +1130,14 @@ tr,th{
         z-index: 2;
 
     } */
-    #overlay-cover-text{
+    /* #overlay-cover-text{
         padding:0px;
         display: none;
-    }
+    } */
     .prev, .next{
         padding:10px;
     }
-    #blurb{
+    #blurb, .animation{
         display: none;
     }
     .brown-box, .cream-box-container{
@@ -1436,21 +1436,47 @@ tr,th{
         display: flex;
         flex-direction: column;
     }
-    .email-collector-mobile{
+    #email-collector{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        position: relative;
-        top:100px;
+        /* position: absolute; */
+        top:150px;
+        
+        width:100vw;
+        
+        
+     
     }
+    #email-collector input{
+        width:350px;
+        font-size: 24px;
+    }
+    #email-collector h2{
+        text-decoration: none;
+        font-size: 25px;
+        color: #664A41;
+        text-shadow: 2.5px 2px .5px #a2928d;
+    }
+    #overlay-cover-text{
+        padding: 0px;
+        height:max-content;
+
+    }
+    .mySlides{
+        opacity:.6;
+    }
+    @-webkit-keyframes fade {
+        from {opacity: .6}
+        to {opacity: .6}
+      }
+      
+      @keyframes fade {
+        from {opacity: .6}
+        to {opacity: .6}
+      }
     
   }
 
-  @media only screen and (max-width: 586.7px) {
-    
-    .team-pic-bio{
-        padding: 20px;
-    }
-
-  }
 
