@@ -1074,9 +1074,10 @@ tr,th{
   .questions-container-mobile, .correct-footer-mobile{
       display: none;
   }
-  .logo-cloud-mobile{
+  .logo-cloud-mobile, .email-collector-mobile{
       display: none;
   }
+  
 
   @media only screen and (max-width: 600px) {
     .what-we-do{
@@ -1310,22 +1311,21 @@ tr,th{
   
     .team-pic-bio{
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        /* justify-content: space-around; */
         align-items: center;
         margin-bottom: 30px;
     }
 
     .team-pic-bio img{
-        width: 220px;
+        width: 320px;
         border-radius:20px;
     }
     .team-pic{
         height:100%;
     }
     .team-bio{
-        width:250px;
-        padding-left: 45px;
+       text-align: center;
         
     }
     .team-bio h5{
@@ -1435,6 +1435,13 @@ tr,th{
     .footer-text-span{
         display: flex;
         flex-direction: column;
+    }
+    .email-collector-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top:100px;
     }
     
   }
