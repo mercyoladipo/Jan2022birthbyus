@@ -1466,6 +1466,9 @@ tr,th{
         height:max-content;
 
     }
+    #NavLogo{
+        font-size: 20px;
+    }
     .mySlides{
         opacity:.6;
     }
